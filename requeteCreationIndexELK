@@ -24,11 +24,3 @@ PUT _index_template/mule-application-status
   }
 }
 }
-
-#Ajout de l'Environnement
-PUT /mule-application-status-*/_mapping
-{
-  "properties": {
-    "Environnement":  { "type": "keyword"}
-  }
-}
